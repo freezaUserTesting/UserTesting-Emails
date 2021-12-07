@@ -63,6 +63,10 @@
     
 <meta class="mktoNumber" id="ctaPadBottom" mktoname="Bottom Spacing" default="20" min="0" max="60" units="px" step="1" mktoModuleScope="true">
     
+<meta class="mktoNumber" id="ctaColumnPadBottom" mktoname="Bottom Column Spacing Bottom" default="20" min="0" max="60" units="px" step="1" mktoModuleScope="true">
+
+<meta class="mktoNumber" id="ctaColumnPadTop" mktoname="Bottom Column Spacing Top" default="20" min="0" max="60" units="px" step="1" mktoModuleScope="true">
+
     
 <meta class="mktoList" id="heroGradientColorStart" mktoname="Hero Gradient Start" default="#315CFD" values="transparent,#1D64E6,#315CFD" mktoModuleScope="true">
     
@@ -1006,21 +1010,20 @@ top; mso-text-raise: 70%;">&reg;</sup> Calendar</a></th>
 </table>
             <!-- End Module: CTA Dark -->
     
-    <!-- Module: Two Column CTA Part 1 -->
-            
-<table id="two_columns_cta_one" class="mso-content-container mktoModule" mktoAddByDefault="false" mktoname="Two Columns CTA One" role="presentation" width="480" align="center" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; margin: 0 auto; width: 87%; max-width: 480px;">
+<!-- Module: Two Column Four CTA -->      
+<table id="two_columns_four_cta" class="mso-content-container mktoModule" mktoAddByDefault="false" mktoname="Two Columns Four CTA" role="presentation" width="480" align="center" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; margin: 0 auto; width: 87%; max-width: 480px;">
               
 <tr>
-<td style="padding-bottom: 10px;">
+<td style="padding-top: ${ctaColumnPadTop}; padding-bottom: ${ctaColumnPadBottom}">
                   
 <table width="100%" role="presentation" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; width: 100%;">
 <tr>
 <!-- Col 1 CTA -->
 <td valign="top" width="46%" style="vertical-align: top; width: 46%;">                      
-<table id="left_cta_one" class="mso-content-container mktoModule" mktoAddByDefault="false" mktoname="Left CTA One" role="presentation" width="480" align="center" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; margin: 0 auto; width: 87%; max-width: 480px;">            
+<table width="100%" role="presentation" width="480" align="center" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; margin: 0 auto; width: 87%; max-width: 480px;">            
 <tr>
 <td style="padding: 10px 0 ${ctaPadBottom} 0;">                
-<table class="mso-container-cta" role="presentation" align="center" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; margin: 0 auto;">           <tr>
+<table width="100%" role="presentation" align="center" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; margin: 0 auto;">           <tr>
 <td class="cta-height" width="${ctaWidth}" height="50" align="center" bgcolor="#315CFD" style="background-color: #315CFD; text-align: center; border-radius: ${ctaBorderRadius}"><a href="${ctaLink}" class="font-12 ptb-13" target="_blank" style="font:bold 14px Helvetica, Arial, sans-serif;padding:16px 0 ;color:#ffffff;text-decoration:none;display:inline-block;letter-spacing: 0.3px;border-radius: 
 25px;width:100%; text-transform: uppercase;">${ctaLinkText}</a></td>                  
 </tr>                
@@ -1033,10 +1036,10 @@ top; mso-text-raise: 70%;">&reg;</sup> Calendar</a></th>
                       
 <!-- Col 2 CTA-->
 <td valign="top" width="46%" style="vertical-align: top; width: 46%;">
-<table id="right_cta_two" class="mso-content-container mktoModule" mktoAddByDefault="false" mktoname="Right CTA One" role="presentation" width="480" align="center" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; margin: 0 auto; width: 87%; max-width: 480px;">            
+<table width="100%" role="presentation" width="480" align="center" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; margin: 0 auto; width: 87%; max-width: 480px;">            
 <tr>
 <td style="padding: 10px 0 ${ctaPadBottom} 0;">        
-<table class="mso-container-cta" role="presentation" align="center" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; margin: 0 auto;">           <tr>
+<table width="100%" role="presentation" align="center" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; margin: 0 auto;">           <tr>
 <td class="cta-height" width="${ctaWidth}" height="50" align="center" bgcolor="#315CFD" style="background-color: #315CFD; text-align: center; border-radius: ${ctaBorderRadius} "><a href="${ctaLink}" class="font-12 ptb-13" target="_blank" style="font:bold 14px Helvetica, Arial, sans-serif;padding:16px 0 ;color:#ffffff;text-decoration:none;display:inline-block;letter-spacing: 0.3px;border-radius: 
 25px;width:100%; text-transform: uppercase;">${ctaLinkText}</a></td>                  
 </tr>                
@@ -1048,10 +1051,50 @@ top; mso-text-raise: 70%;">&reg;</sup> Calendar</a></th>
                     
 </tr>                
 </table>
-</td>             
+    
+<table width="100%" role="presentation" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; width: 100%;">
+<tr>
+<!-- Col 1 CTA -->
+<td valign="top" width="46%" style="vertical-align: top; width: 46%;">                      
+<table width="100%" role="presentation" width="480" align="center" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; margin: 0 auto; width: 87%; max-width: 480px;">            
+<tr>
+<td style="padding: 10px 0 ${ctaPadBottom} 0;">                
+<table width="100%" role="presentation" align="center" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; margin: 0 auto;">           <tr>
+<td class="cta-height" width="${ctaWidth}" height="50" align="center" bgcolor="#315CFD" style="background-color: #315CFD; text-align: center; border-radius: ${ctaBorderRadius}"><a href="${ctaLink}" class="font-12 ptb-13" target="_blank" style="font:bold 14px Helvetica, Arial, sans-serif;padding:16px 0 ;color:#ffffff;text-decoration:none;display:inline-block;letter-spacing: 0.3px;border-radius: 
+25px;width:100%; text-transform: uppercase;">${ctaLinkText}</a></td>                  
+</tr>                
+</table>
+</td>            
 </tr>          
 </table>
-<!-- End Module: Two Columns CTA Part 1 -->
+</td>
+<td width="8%" style="vertical-align: top; width: 8%;">&nbsp;</td>
+                      
+<!-- Col 2 CTA-->
+<td valign="top" width="46%" style="vertical-align: top; width: 46%;">
+<table width="100%" role="presentation" width="480" align="center" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; margin: 0 auto; width: 87%; max-width: 480px;">            
+<tr>
+<td style="padding: 10px 0 ${ctaPadBottom} 0;">        
+<table width="100%" role="presentation" align="center" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; margin: 0 auto;">           <tr>
+<td class="cta-height" width="${ctaWidth}" height="50" align="center" bgcolor="#315CFD" style="background-color: #315CFD; text-align: center; border-radius: ${ctaBorderRadius} "><a href="${ctaLink}" class="font-12 ptb-13" target="_blank" style="font:bold 14px Helvetica, Arial, sans-serif;padding:16px 0 ;color:#ffffff;text-decoration:none;display:inline-block;letter-spacing: 0.3px;border-radius: 
+25px;width:100%; text-transform: uppercase;">${ctaLinkText}</a></td>                  
+</tr>                
+</table>
+</td>            
+</tr>          
+</table>
+</td>
+                    
+</tr>                
+</table>
+    
+    
+    </td>
+    </tr>
+    </table>
+
+
+    
             <!-- Module: Two Columns -->
             
 <table id="two_columns" class="mso-content-container mktoModule" mktoAddByDefault="false" mktoname="Two Columns" role="presentation" width="480" align="center" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; margin: 0 auto; width: 87%; max-width: 480px;">
