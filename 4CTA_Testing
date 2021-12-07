@@ -60,12 +60,25 @@
 <meta class="mktoString" id="ctaLink" mktoname="Button Link" default="https://www.usertesting.com/" mktoModuleScope="true">
     
 <meta class="mktoString" id="ctaLinkText" mktoname="Button Label" default="CTA BUTTON" mktoModuleScope="true">
+
+<meta class="mktoString" id="ctaLink1" mktoname="Button Link1" default="https://www.usertesting.com/" mktoModuleScope="true">
+<meta class="mktoString" id="ctaLink2" mktoname="Button Link2" default="https://www.usertesting.com/" mktoModuleScope="true">
+<meta class="mktoString" id="ctaLink3" mktoname="Button Link3" default="https://www.usertesting.com/" mktoModuleScope="true">
+<meta class="mktoString" id="ctaLink4" mktoname="Button Link4" default="https://www.usertesting.com/" mktoModuleScope="true">
+
+
+<meta class="mktoString" id="ctaLinkText1" mktoname="Button Label 1" default="CTA BUTTON" mktoModuleScope="true">
+<meta class="mktoString" id="ctaLinkText2" mktoname="Button Label 2" default="CTA BUTTON" mktoModuleScope="true">
+<meta class="mktoString" id="ctaLinkText3" mktoname="Button Label 3" default="CTA BUTTON" mktoModuleScope="true">
+<meta class="mktoString" id="ctaLinkText4" mktoname="Button Label 4" default="CTA BUTTON" mktoModuleScope="true">
+
+
     
 <meta class="mktoNumber" id="ctaPadBottom" mktoname="Bottom Spacing" default="20" min="0" max="60" units="px" step="1" mktoModuleScope="true">
     
-<meta class="mktoNumber" id="ctaColumnPadBottom" mktoname="Bottom Column Spacing Bottom" default="20" min="0" max="60" units="px" step="1" mktoModuleScope="true">
+<meta class="mktoNumber" id="ctaColumnPadBottom" mktoname="Padding Bottom Column" default="20" min="0" max="60" units="px" step="1" mktoModuleScope="true">
 
-<meta class="mktoNumber" id="ctaColumnPadTop" mktoname="Bottom Column Spacing Top" default="20" min="0" max="60" units="px" step="1" mktoModuleScope="true">
+<meta class="mktoNumber" id="ctaColumnPadTop" mktoname="Padding Top Column" default="20" min="0" max="60" units="px" step="1" mktoModuleScope="true">
 
     
 <meta class="mktoList" id="heroGradientColorStart" mktoname="Hero Gradient Start" default="#315CFD" values="transparent,#1D64E6,#315CFD" mktoModuleScope="true">
@@ -1024,8 +1037,7 @@ top; mso-text-raise: 70%;">&reg;</sup> Calendar</a></th>
 <tr>
 <td style="padding: 10px 0 ${ctaPadBottom} 0;">                
 <table width="100%" role="presentation" align="center" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; margin: 0 auto;">           <tr>
-<td class="cta-height" width="${ctaWidth}" height="50" align="center" bgcolor="#315CFD" style="background-color: #315CFD; text-align: center; border-radius: ${ctaBorderRadius}"><a href="${ctaLink}" class="font-12 ptb-13" target="_blank" style="font:bold 14px Helvetica, Arial, sans-serif;padding:16px 0 ;color:#ffffff;text-decoration:none;display:inline-block;letter-spacing: 0.3px;border-radius: 
-25px;width:100%; text-transform: uppercase;">${ctaLinkText}</a></td>                  
+<td class="cta-height" width="${ctaWidth}" height="50" align="center" bgcolor="#315CFD" style="background-color: #315CFD; text-align: center; border-radius: ${ctaBorderRadius}"><a href="${ctaLink1}" class="font-12 ptb-13" target="_blank" style="font:bold 14px Helvetica, Arial, sans-serif;padding:16px 0 ;color:#ffffff;text-decoration:none;display:inline-block;letter-spacing: 0.3px;border-radius:  ${ctaBorderRadius};width:100%; text-transform: uppercase;">${ctaLinkText1}</a></td>                  
 </tr>                
 </table>
 </td>            
@@ -1040,8 +1052,7 @@ top; mso-text-raise: 70%;">&reg;</sup> Calendar</a></th>
 <tr>
 <td style="padding: 10px 0 ${ctaPadBottom} 0;">        
 <table width="100%" role="presentation" align="center" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; margin: 0 auto;">           <tr>
-<td class="cta-height" width="${ctaWidth}" height="50" align="center" bgcolor="#315CFD" style="background-color: #315CFD; text-align: center; border-radius: ${ctaBorderRadius} "><a href="${ctaLink}" class="font-12 ptb-13" target="_blank" style="font:bold 14px Helvetica, Arial, sans-serif;padding:16px 0 ;color:#ffffff;text-decoration:none;display:inline-block;letter-spacing: 0.3px;border-radius: 
-25px;width:100%; text-transform: uppercase;">${ctaLinkText}</a></td>                  
+<td  class="cta-height" width="${ctaWidth}" height="50" align="center" bgcolor="#315CFD" style="background-color: #315CFD; text-align: center; border-radius: ${ctaBorderRadius} "><a href="${ctaLink2}" class="font-12 ptb-13" target="_blank" style="font:bold 14px Helvetica, Arial, sans-serif;padding:16px 0 ;color:#ffffff;text-decoration:none;display:inline-block;letter-spacing: 0.3px;border-radius:  ${ctaBorderRadius};width:100%; text-transform: uppercase;">${ctaLinkText2}</a></td>                  
 </tr>                
 </table>
 </td>            
@@ -1060,8 +1071,7 @@ top; mso-text-raise: 70%;">&reg;</sup> Calendar</a></th>
 <tr>
 <td style="padding: 10px 0 ${ctaPadBottom} 0;">                
 <table width="100%" role="presentation" align="center" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; margin: 0 auto;">           <tr>
-<td class="cta-height" width="${ctaWidth}" height="50" align="center" bgcolor="#315CFD" style="background-color: #315CFD; text-align: center; border-radius: ${ctaBorderRadius}"><a href="${ctaLink}" class="font-12 ptb-13" target="_blank" style="font:bold 14px Helvetica, Arial, sans-serif;padding:16px 0 ;color:#ffffff;text-decoration:none;display:inline-block;letter-spacing: 0.3px;border-radius: 
-25px;width:100%; text-transform: uppercase;">${ctaLinkText}</a></td>                  
+<td class="cta-height" width="${ctaWidth}" height="50" align="center" bgcolor="#315CFD" style="background-color: #315CFD; text-align: center; border-radius: ${ctaBorderRadius}"><a href="${ctaLink3}" class="font-12 ptb-13" target="_blank" style="font:bold 14px Helvetica, Arial, sans-serif;padding:16px 0 ;color:#ffffff;text-decoration:none;display:inline-block;letter-spacing: 0.3px;border-radius:  ${ctaBorderRadius};width:100%; text-transform: uppercase;">${ctaLinkText3}</a></td>                  
 </tr>                
 </table>
 </td>            
@@ -1076,8 +1086,7 @@ top; mso-text-raise: 70%;">&reg;</sup> Calendar</a></th>
 <tr>
 <td style="padding: 10px 0 ${ctaPadBottom} 0;">        
 <table width="100%" role="presentation" align="center" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; margin: 0 auto;">           <tr>
-<td class="cta-height" width="${ctaWidth}" height="50" align="center" bgcolor="#315CFD" style="background-color: #315CFD; text-align: center; border-radius: ${ctaBorderRadius} "><a href="${ctaLink}" class="font-12 ptb-13" target="_blank" style="font:bold 14px Helvetica, Arial, sans-serif;padding:16px 0 ;color:#ffffff;text-decoration:none;display:inline-block;letter-spacing: 0.3px;border-radius: 
-25px;width:100%; text-transform: uppercase;">${ctaLinkText}</a></td>                  
+<td class="cta-height" width="${ctaWidth}" height="50" align="center" bgcolor="#315CFD" style="background-color: #315CFD; text-align: center; border-radius: ${ctaBorderRadius} "><a href="${ctaLink4}" class="font-12 ptb-13" target="_blank" style="font:bold 14px Helvetica, Arial, sans-serif;padding:16px 0 ;color:#ffffff;text-decoration:none;display:inline-block;letter-spacing: 0.3px;border-radius: ${ctaBorderRadius};width:100%; text-transform: uppercase;">${ctaLinkText4}</a></td>                  
 </tr>                
 </table>
 </td>            
